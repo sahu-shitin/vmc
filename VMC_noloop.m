@@ -11,6 +11,7 @@ d = 1;      % Degree of lifted polynomial space
 p = 0.5;    % p value for Schatten-p norm
 eta = 1.01; % gamm_n = gamm_0/eta^n
 
+% X0 = double([obj10__39 obj11__1; obj1__0 obj12__0])/512;
 % X0 = double(yaleB10_P00A_005E_10)/512;
 X0 = double(cat_2)/512;
 scalefac = sqrt(max(sum(abs(X0).^2)));
