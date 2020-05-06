@@ -1,0 +1,14 @@
+Links to databases:
+Motion Capture Database: http://mocap.cs.cmu.edu/search.php
+COIL-20 Database: https://www.cs.columbia.edu/CAVE/software/softlib/coil-20.php
+The Extended Yale Face Database B: http://vision.ucsd.edu/~iskwak/ExtYaleDatabase/ExtYaleB.html
+Link to cat image in presentation: https://www.chegg.com/homework-help/questions-and-answers/please-use-matlab-images-scaled-resized-values-pixels-need-guessed-interpolated-order-fill-q28127469
+
+sampleimages.mat contain matrices corresponding to 
+four images from the coil-20 dataset,
+one face image from the Yale Face database,
+and the cat image used in the presentation
+
+mocapdata.mat is the motion capture database in matrix form
+Columns 25, 26, 37 and 38 in the mocap matrix have extremely small values (~1e-15) compared to the rest of the matrix that never properly converge.
+Hence they were not used when simulating mocap data recovery
